@@ -50,6 +50,19 @@
         "description": "OS image publisher."
       }
     },
+    "osImageName": {
+      "type": "string",
+      "defaultValue": "Windows Server 2022 Gen 2",
+      "allowedValues": [
+        "Windows Server 2022 Gen 2",
+        "Windows Server 2019 Gen 2",
+        "Ubuntu 20.04 LTS Gen 2",
+        "Ubuntu 18.04 LTS Gen 2"
+      ],
+      "metadata": {
+        "description": "OS Image for the Virtual Machine"
+      }
+    },
     "osImageOffer": {
       "type": "string",
       "defaultValue": "",

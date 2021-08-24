@@ -163,6 +163,16 @@ func (t *TemplateGenerator) getTemplateFuncMap(vm *api.APIModel) template.FuncMa
 				return "None"
 			}
 		},
+		"GetVMSecurityType": func() string {
+			switch vm.VMCategory {
+			case api.TVM:
+				return ""
+			case api.CVM:
+				return "ConfidentialVM"
+			default:
+				return "None"
+			}
+		},
 		"HasTipNodeSession": func() bool {
 			return len(vm.Properties.VMProfile.TipNodeSessionID) > 0
 		},

@@ -22,6 +22,12 @@
         "offer": "0001-com-ubuntu-confidential-vm-experimental",
         "sku": "18_04-gen2",
         "version": "18.04.20210309"
+      },
+      "Canonical_FDE_Gen_2": {
+        "publisher": "Canonical",
+        "offer": "0001-com-ubuntu-confidential-vm-focal",
+        "sku": "20_04-lts-gen2",
+        "version": "latest"
       }
     },
     "imageReference": "[variables('imageList')[parameters('osImageName')]]",

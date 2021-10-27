@@ -44,7 +44,8 @@
         "Windows Server 2019 Gen 2",
         "Ubuntu 20.04 LTS Gen 2",
         "Ubuntu 18.04 LTS Gen 2",
-        "Canonical_FDE_Gen_2"
+        "Canonical_FDE_Gen_2",
+        "Ubuntu 20.04 LTS Gen 2 CVM latest"
       ],
       "metadata": {
         "description": "OS image name for the Virtual Machine"

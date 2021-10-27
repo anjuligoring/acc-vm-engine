@@ -28,6 +28,12 @@
         "offer": "0001-com-ubuntu-confidential-vm-focal",
         "sku": "20_04-lts-gen2",
         "version": "latest"
+      },
+      "Ubuntu 20.04 LTS Gen 2 CVM latest": {
+        "publisher": "Canonical",
+        "offer": "0001-com-ubuntu-confidential-vm-focal ",
+        "sku": "20_04-lts-gen2",
+        "version": " latest"
       }
     },
     "imageReference": "[variables('imageList')[parameters('osImageName')]]",

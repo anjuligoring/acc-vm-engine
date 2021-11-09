@@ -46,7 +46,7 @@
         "offer": "0001-com-ubuntu-confidential-vm-focal ",
         "sku": "20_04-lts-gen2",
         "version": " latest"
-      },
+      }
     },
     "imageReference": "[variables('imageList')[parameters('osImageName')]]",
     "networkInterfaceName": "[concat(parameters('vmName'), '-nic')]",

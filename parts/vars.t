@@ -11,6 +11,18 @@
         "sku":  "2019-datacenter-cvm",
         "version": "latest"
       },
+      "Windows Server 2019 Small Disk Gen 2": {
+        "publisher": "microsoftwindowsserver",
+        "offer": "windowsserver",
+        "sku": "2019-datacenter-smalldisk-g2",
+        "version": "17763.2300.2111032328"
+      },
+      "Windows Server 2022 Small Disk Gen 2": {
+        "publisher": "microsoftwindowsserver",
+        "offer": "windowsserver",
+        "sku": "2022-datacenter-smalldisk-g2",
+        "version": "20348.350.2111030009"
+      }
       "Ubuntu 20.04 LTS Gen 2": {
         "publisher": "Canonical",
         "offer": "0001-com-ubuntu-confidential-vm-experimental",
@@ -34,7 +46,7 @@
         "offer": "0001-com-ubuntu-confidential-vm-focal ",
         "sku": "20_04-lts-gen2",
         "version": " latest"
-      }
+      },
     },
     "imageReference": "[variables('imageList')[parameters('osImageName')]]",
     "networkInterfaceName": "[concat(parameters('vmName'), '-nic')]",

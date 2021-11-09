@@ -22,7 +22,7 @@
         "offer": "windowsserver",
         "sku": "2022-datacenter-smalldisk-g2",
         "version": "20348.350.2111030009"
-      }
+      },
       "Ubuntu 20.04 LTS Gen 2": {
         "publisher": "Canonical",
         "offer": "0001-com-ubuntu-confidential-vm-experimental",

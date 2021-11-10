@@ -46,6 +46,12 @@
         "offer": "0001-com-ubuntu-confidential-vm-focal ",
         "sku": "20_04-lts-gen2",
         "version": " latest"
+      },
+      "Ubuntu 20.04 LTS Gen 2 TVMCVM": {
+        "publisher": "AZURERT.PIRCORE.CAPSBVT",
+        "offer": "longlivedtvmcvm",
+        "sku": "Ubuntu20.04",
+        "version": "1.0.0"
       }
     },
     "imageReference": "[variables('imageList')[parameters('osImageName')]]",

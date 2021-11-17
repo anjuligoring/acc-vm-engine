@@ -43,9 +43,9 @@
       },
       "Ubuntu 20.04 LTS Gen 2 CVM latest": {
         "publisher": "Canonical",
-        "offer": "0001-com-ubuntu-confidential-vm-focal ",
-        "sku": "20_04-lts-gen2",
-        "version": " latest"
+        "offer": "0001-com-ubuntu-confidential-vm-focal",
+        "sku": "20_04-lts-cvm",
+        "version": "20.04.202111100"
       },
       "Ubuntu 20.04 LTS Gen 2 TVMCVM": {
         "publisher": "AZURERT.PIRCORE.CAPSBVT",

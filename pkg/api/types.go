@@ -91,7 +91,7 @@ type VnetProfile struct {
 // DiagnosticsProfile contains settings to on/off boot diagnostics collection
 // in RD Host
 type DiagnosticsProfile struct {
-	Enabled             bool   `json:"true"`
+	Enabled             bool   `json:"enabled"`
 	StorageAccountName  string `json:"storageAccountName"`
 	IsNewStorageAccount bool   `json:"isNewStorageAccount"`
 }
